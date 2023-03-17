@@ -1,0 +1,35 @@
+.nav-item-alt{
+    cursor: pointer;
+}
+.nav-item-alt > ul{
+    display: none;
+}
+.nav-item-alt:hover.nav-item-alt > ul{
+    display: flex;
+}
+.article-body-content > p{
+    margin-bottom: 1rem;
+}
+
+.table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    text-align: center;
+    vertical-align: middle;
+    border-spacing: 10px 0px;
+}
+.table.table-striped tr:nth-child(even){
+    background-color: #e7e7e7;
+}
+.table thead{
+    text-transform: uppercase;
+    letter-spacing: 5%;
+}
+/* .table tr{
+} */
+.table th, .table td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

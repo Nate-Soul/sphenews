@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-control {
+   @apply p-2 border border-gray-300 outline-none w-full rounded-lg focus:border-main
+}
+
+.btn{
+   @apply inline-flex justify-center items-center rounded p-1 transition
+}
+
+.btn-main-700{
+   @apply bg-main-700 border border-transparent text-white hover:border-main-700 hover:text-main-700 hover:bg-white
+}
+
+.btn-main-outline-700{
+   @apply bg-white text-main-700 border border-main-700 hover:bg-main-700 hover:border-transparent hover:text-white
+}
+
+.form-control-label{
+   @apply font-medium block mb-2
+}
